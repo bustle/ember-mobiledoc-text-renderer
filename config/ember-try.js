@@ -1,25 +1,19 @@
 module.exports = {
   scenarios: [
     {
-      name: 'default',
-      dependencies: { }
-    },
-    {
-      name: 'ember-release',
+      name: '1.13',
       dependencies: {
-        'ember': 'components/ember#release'
-      },
-      resolutions: {
-        'ember': 'release'
+        'ember': '~1.13.7'
       }
     },
     {
-      name: 'ember-beta',
+      name: 'default',
+      dependencies: {} 
+    },
+    {
+      name: '2.3',
       dependencies: {
-        'ember': 'components/ember#beta'
-      },
-      resolutions: {
-        'ember': 'beta'
+        'ember': '2.3.0-beta.1'
       }
     },
     {
