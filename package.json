@@ -1,6 +1,6 @@
 {
   "name": "ember-mobiledoc-text-renderer",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "provides mobiledoc-text-renderer to ember apps",
   "directories": {
     "doc": "doc",
