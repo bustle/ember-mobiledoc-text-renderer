@@ -1,10 +1,9 @@
-/* jshint node: true */
 'use strict';
 
 var path = require('path');
 
 module.exports = {
-  name: 'ember-mobiledoc-text-renderer',
+  name: require('./package').name,
   included: function() {
     var libRoot = require.resolve('mobiledoc-text-renderer/lib');
     var libPath = path.dirname(libRoot);
